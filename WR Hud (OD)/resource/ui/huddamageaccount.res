@@ -12,9 +12,8 @@
 		"delta_item_font"		"HudFontMedium"
 		"delta_item_font_big"	"HudFontMedium"
 	}
-}
-
-"DamageAccountValue"
+	
+	"DamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"

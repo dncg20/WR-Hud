@@ -434,6 +434,26 @@ Scheme{Colors{
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		"AmmoC"
+		{
+			"1"
+			{
+			 "name"		"Yu Gothic"
+			 "tall"		"72"
+			 "additive"	"0"
+			 "antialias" "1"
+			}
+		}
+		"AmmoR"
+		{
+			"1"
+			{
+			 "name"		"Yu Gothic"
+			 "tall"		"28"
+			 "additive" "0"
+			 antialias "1"
+			}
+		}
 		"Default"
 		{
 			"1"
@@ -2360,7 +2380,6 @@ Scheme{Colors{
 				"antialias" "1"
 			}
 		}
-		
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
@@ -2399,7 +2418,6 @@ Scheme{Colors{
 				"additive"	"0"
 			}
 		}
-
 	}
 
 	//
@@ -4305,6 +4323,11 @@ Scheme{Colors{
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
+		}
+		"7"
+		{
+			"font" "resource/fonts/yugothic.ttf"
+			"name" "Yu Gothic"
+		}	
 	}
 }
